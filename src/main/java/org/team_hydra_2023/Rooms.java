@@ -1,9 +1,7 @@
 package org.team_hydra_2023;
 
+
 import java.io.Serializable;
-
-
-//MODE
 
 /*
 Room class holds all the information needed to define a rooms object.

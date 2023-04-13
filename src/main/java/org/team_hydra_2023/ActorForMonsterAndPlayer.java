@@ -1,4 +1,4 @@
-package java.org.team_hydra_2023;
+package org.team_hydra_2023;
 
 public class ActorForMonsterAndPlayer {
 

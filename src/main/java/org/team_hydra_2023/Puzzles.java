@@ -8,7 +8,7 @@ public class Puzzles {
     private String descriptionIfPuzzleIsSolved;
     private String descriptionIfPuzzleIsNotSolved;
 
-    public Puzzles(String instructions, String solution, int id, String solvedDesc, String unsolvedDesc) {
+    public Puzzles(int id, String instructions, String solution, String solvedDesc, String unsolvedDesc) {
         this.puzzleInstructions = instructions;
         this.puzzleSolution = solution;
         this.puzzleID = id;

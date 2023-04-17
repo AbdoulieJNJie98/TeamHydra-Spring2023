@@ -1,0 +1,9 @@
+ID~Description~Instructions~Solution~SolvedStatus~IsSolved~Unsolved
+
+1~ ~Ye Shall find this treasure where ~Use Treasure Map~false~You have found the treasure in the area.~ I have no idea where this treasure could be.
+2~A Giant Rock blocks your path. If only I had something capable of moving this rock.~You need the claw Upgrade to move the rock.~Claw Upgrade~false~You have successfully used the claw to move the rock.~My submarine isn't capable of moving this rock.
+3~ ~Ye Shall find this treasure where ~Use Treasure Map~false~You have found the treasure in the area.~ I have no idea where this treasure could be.
+4~Hardened Stalagmites completely encircle the tunnel ahead, keeping your submarine from moving on without suffering severe damage. If only there was something to destroy them.~You need the super torpedo to destroy the Hardened Stalagmites.~Super Torpedo~false~You have successfully used the super torpedo to destroy the Stalagmites.~You currently do not have any super torpedos available to destroy the stalagmites.
+5~ ~Ye Shall find this treasure where ~Use Treasure Map~false~You have found the treasure in the area.~ I have no idea where this treasure could be.
+6~The layers of rock here is hollow underneath. The submarine would be able to go through by drilling into it.~You need the Titanium Drill Upgrade to drill through.~Titanium Drill~false~You have successfully used the drill on the rock.~Without the titanium Drill, the submarine is not capable of drilling into the rocks.
+7~This ancient device is no longer functioning. However, the hand is stuck pointing South West. Perhaps following that direction will reveal something in the depths.You must use the Antikythera Mechanism.~Antikythera Mechanism~false~The mechanism is guiding us towards the layers of metamorphic rock!~Hmm.. The device isn't doing anything..

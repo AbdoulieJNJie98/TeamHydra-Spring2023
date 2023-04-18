@@ -83,7 +83,7 @@ public class Map  implements Serializable {
                 String[] parts = line.split("~", 7); // String array used to each element in the given file individually
                 if (parts.length >= 6) {
                     // temp room object used to hold information collected from current iteration of loop
-                    Puzzles p = new Puzzles(Integer.parseInt(parts[0]), parts[1], parts[2], parts[3], parts[4]);
+                    Puzzles p = new Puzzles(Integer.parseInt(parts[0]),Integer.parseInt(parts[1]),parts[2], parts[3], parts[4], parts[5], parts[6]);
                     hashMapPuzzles.put(p.getPuzzleID(), p); // used to add the values stored in the temp puzzle to the hash map
                 }
 

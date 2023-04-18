@@ -1,23 +1,34 @@
 package org.team_hydra_2023;
 
 public class Puzzles {
+    private int puzzleID;
+
+    private int puzzleRoomID;
+    private String puzzleDescription;
     private String puzzleInstructions;
     private String puzzleSolution;
-    private int puzzleID;
     private boolean puzzleSolvedStatus;
     private String descriptionIfPuzzleIsSolved;
     private String descriptionIfPuzzleIsNotSolved;
 
-    public Puzzles(int id, String instructions, String solution, String solvedDesc, String unsolvedDesc) {
+    public Puzzles(int id, int PRoomID ,String description, String instructions, String solution, String solvedDesc, String unsolvedDesc) {
+        this.puzzleID = id;
+        this.puzzleRoomID = PRoomID;
+        this.puzzleDescription = description;
         this.puzzleInstructions = instructions;
         this.puzzleSolution = solution;
-        this.puzzleID = id;
         this.puzzleSolvedStatus = false;
         this.descriptionIfPuzzleIsSolved = solvedDesc;
         this.descriptionIfPuzzleIsNotSolved = unsolvedDesc;
     }
 
     // getters and setters
+    public int getPuzzleRoomID(){
+        return puzzleRoomID;
+    }
+    public void setPuzzleRoomID(){
+        this.puzzleRoomID = puzzleRoomID;
+    }
     public String getPuzzleInstructions() {
         return puzzleInstructions;
     }
@@ -64,6 +75,12 @@ public class Puzzles {
 
     public void setDescriptionIfPuzzleIsNotSolved(String descriptionIfPuzzleIsNotSolved) {
         this.descriptionIfPuzzleIsNotSolved = descriptionIfPuzzleIsNotSolved;
+    }
+
+    public String getPuzzleDescription(){return puzzleDescription;}
+
+    public void setPuzzleDescription(String puzzleDescription){
+        this.puzzleDescription = puzzleDescription;
     }
 
     // method to check if the player's solution is correct

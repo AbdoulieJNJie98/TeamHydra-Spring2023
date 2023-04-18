@@ -11,7 +11,7 @@ public class Map  implements Serializable {
     // String used to represent file name
     public String roomsFilePath = "rooms.txt";
     public String itemsFilePath = "Items.txt";
-    public String puzzlesFilePath = "Puzzles.txt";
+    public String puzzlesFilePath = "org.team_hydra_2023.Puzzles.txt";
     // hash map used to store and retrieve the elements read from file
     public HashMap<Integer, Rooms> hashMapRooms = new HashMap<Integer, Rooms>();
     public HashMap<Integer, Items> hashMapItems = new HashMap<Integer, Items>();
